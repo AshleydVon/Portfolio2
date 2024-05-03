@@ -1,0 +1,114 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px; /* Spacing between nav links */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* About section */
+.about-section {
+    padding: 40px; /* Spacing around the section */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.photo-container {
+    margin-right: 20px; /* Space between the photo and the text */
+}
+
+.photo-container img {
+    max-width: 150px; /* Fixed size for the photo */
+    border-radius: 50%; /* Circular photo */
+}
+
+.info-container {
+    text-align: left;
+    max-width: 500px; /* Keeps the text from stretching too wide */
+}
+
+.info-container h2 {
+    margin-bottom: 10px;
+}
+
+.info-container p {
+    margin: 0;
+    padding: 20px;
+}
+
+/* Projects section */
+.project-section {
+    padding: 40px; /* Spacing around the section */
+}
+
+.project-section ul {
+    list-style-type: none;
+}
+
+.project-section li {
+    margin-bottom: 15px; /* Spacing between project links */
+}
+
+.project-section li a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.project-section li a:hover {
+    text-decoration: underline;
+}
+
+/* Contact section */
+.contact-section {
+    padding: 40px; /* Spacing around the section */
+}
+
+.contact-section h2 {
+    color: #333;
+}
+
+.contact-section p {
+    margin: 10px 0;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
