@@ -1,45 +1,45 @@
-/* Reset default styles */
+/* Beginning css, setting consistent base*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Gradient background for the body from pink to gold */
+/* Set gradient background for the body from pink to gold */
 body {
     background: linear-gradient(to right, #ff758c, #ffce00); /* Gradient from pink to gold */
     font-family: 'Raleway', sans-serif; /* Modern, stylish font for body content */
-    color: #333; /* Default text color */
+    color: #333; /* Default text color to be used cosistently*/
 }
 
-/* Header with background image only */
+/* Header with embedded background image, personalized from linkedin*/
 .header-background {
     background: url('/assets/backgroundimg.jpeg') no-repeat center center; /* Background image covering the entire header */
     background-size: cover; /* Ensures the image covers the entire header */
-    height: 200px; /* Height of the header */
+    height: 200px; /* Set/adjusted height of the header */
 }
 
 /* Content container for text and navigation below the header */
-/* Navigation List Styles */
+/* Set styles for navagation*/
 nav ul {
-    list-style-type: none; /* Remove bullet points from unordered lists */
+    list-style-type: none; /* Had to trouble shoot code in order to remove bullet points from unordered lists */
     padding-left: 0; /* Remove left padding */
     margin: 0; /* Remove default margin */
   }
   
   nav ul li {
-    display: inline-block; /* Make list items appear horizontally */
-    margin-right: 20px; /* Space between list items */
+    display: inline-block; /* Makes items appear horizontally */
+    margin-right: 20px; /* Set space between list items */
   }
   
 .header-content {
-    text-align: center; /* Centers the content */
-    padding: 20px; /* Padding for spacing */
+    text-align: center; /* Centered text */
+    padding: 20px; /* Added/adjusted padding */
 }
 
 .header-title {
-    font-family: 'Playfair Display', serif; /* Stylish font for the header title */
-    font-size: 2em; /* Larger font size for emphasis */
+    font-family: 'Playfair Display', serif; /* Linked googlefonts in order to use multiple sylish options for fonts. */
+    font-size: 2em; /* Reserached larger font size */
 }
 
 nav {
@@ -57,14 +57,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #333; /* Text color for nav links */
+    color: #333; /* Text color for links */
     text-decoration: none.
-    padding: 10px; /* Adds padding for hover effect */
+    padding: 10px; /* Adds padding for hover */
 }
 
 nav ul li a:hover {
     text-shadow: 2px 2px 5px black; /* Adds black shadow on hover */
-    border-radius: 5px; /* Subtle rounded corners */
+    border-radius: 5px; /* Set rounded border radius. */
 }
 
 /* About Section */
@@ -75,17 +75,17 @@ nav ul li a:hover {
 }
 
 .photo-container {
-    margin-right: 20px; /* Space between photo and text */
+    margin-right: 20px; /* Set/adjusted spacing between photo and text */
 }
 
 .photo-container img {
     max-width: 150px; /* Fixed size for the photo */
-    border-radius: 50%; /* Circular shape */
+    border-radius: 50%; /* Set circular shape */
 }
 
 .info-container {
     max-width: 600px; /* Keeps the text from stretching too wide */
-    text-align: left; /* Aligns text towards the photo */
+    text-align: left; /* Wanted text to align to left of photo*/
 }
 
 .info-container h2 {
@@ -93,12 +93,12 @@ nav ul li a:hover {
 }
 
 info-container p {
-    padding: 20px; /* Internal padding */
+    padding: 20px; /* Set/adjusted padding*/
 }
 
 /* Projects Section */
 .projects-section {
-    padding: 40px; /* Spacing around the section */
+    padding: 40px; /* Set larger padding */
 }
 
 .projects-section ul {
@@ -107,7 +107,7 @@ info-container p {
 }
 
 projects-section li {
-    margin-bottom: 15px; /* Spacing between project links */
+    margin-bottom: 15px; /* Set/adjusted space between project links */
 }
 
 projects-section li a {
@@ -116,27 +116,27 @@ projects-section li a {
 }
 
 projects-section li a:hover {
-    text-shadow: 2px 2px 5px black; /* Adds black shadow on hover */
-    border-radius: 5px; /* Adds subtle rounded corners */
+    text-shadow: 2px 2px 5px black; /* Adds black shadow on hover, consistent. */
+    border-radius: 5px; /* Added border radius again for rounded corners */
 }
 
 /* Contact Section */
 .contact-section {
-    padding: 40px; /* Spacing around the section */
+    padding: 40px; /* Researched, adjusted set spacing around the section */
 }
 
 .contact-section h2 {
-    color: #333; /* Consistent text color */
+    color: #333; /* Set consistnet text color */
 }
 
 contact-section p {
-    padding: 10px; /* Adds internal padding */
+    padding: 10px; /* Set/adjusted padding for contact section, increasing/decreasing space around content. */
 }
 
 /* Footer */
 footer {
     background-color: #333.
     color: white.
-    padding: 20px; /* Provides space in the footer */
+    padding: 20px; /* Set/adjusted for additional space in the footer */
     text-align: center.
 }
