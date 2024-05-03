@@ -2,47 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Stylish Portfolio</title>
+    <title>Ashley Von's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Playfair+Display&display=swap" rel="stylesheet"> <!-- Linking Google Fonts -->
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
-    <header>
-        <h1>John Doe's Portfolio</h1>
+<body style="margin: 20px;"> <!-- Global margin for spacing -->
+
+    <!-- Header with only background image -->
+    <header class="header-background" style="margin-bottom: 20px;"></header> <!-- Add spacing below header -->
+
+    <!-- Text and navigation below the header -->
+    <div class="header-content" style="margin-bottom: 40px;"> <!-- Increased spacing below header content -->
+        <h1 class="header-title">Ashley Von's Portfolio</h1> <!-- Header title with stylish font -->
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li> <!-- List item without bullets -->
+                <li><a href="#projects">Projects</a></li> <!-- List item without bullets -->
+                <li><a href="#contact">Contact</a></li> <!-- List item without bullets -->
             </ul>
         </nav>
-    </header>
+    </div>
+    
 
-    <section id="about" class="about-section">
+    <section id="about" class="flex-container" style="margin-bottom: 40px;"> <!-- Spacing after about section -->
         <div class="photo-container">
-            <img src="your-photo.jpg" alt="Your Picture" />
+            <img src="/assets/IMG_2819.JPG" alt="Your Picture" />
         </div>
         <div class="info-container">
             <h2>About Me</h2>
-            <p>Hello! I'm John Doe, a software developer with a passion for creating intuitive and engaging applications. I specialize in front-end development, with expertise in HTML, CSS, and JavaScript. I enjoy learning new technologies and sharing knowledge with others.</p>
+            <p>Greetings! I'm Ashley Von. I am currently enrolled in Columbia University's coding bootcamp. I have experience in data analytics, start-ups, and risk analysis. I have linked a few beginner projects to show my progress thus far.</p>
         </div>
     </section>
 
-    <section id="projects" class="project-section">
+    <section id="projects" class="projects-section" style="margin-bottom: 40px;"> <!-- Spacing after projects section -->
         <h2>My Projects</h2>
         <ul>
-            <li><a href="https://github.com/johndoe/project1" target="_blank">Project 1: Task Management System</a></li>
-            <li><a href="https://github.com/johndoe/project2" target="_blank">Project 2: Portfolio Website</a></li>
-            <li><a href="https://github.com/johndoe/project3" target="_blank">Project 3: Data Visualization Dashboard</a></li>
+            <li><a href="https://github.com/AshleydVon/Homework1" target="_blank">My First Homework Assignment</a></li>
+            <li><a href="https://github.com/AshleydVon/AshleydVon-Portfolio" target="_blank">First Portfolio Attempt</a></li>
+            <li><a href="https://github.com/AshleydVon/Module-3" target="_blank">JavaScript Homework</a></li>
         </ul>
     </section>
 
-    <section id="contact" class="contact-section">
+    <section id="contact" class="contact-section" style="margin-bottom: 40px;"> <!-- Spacing after contact section -->
         <h2>Contact Me</h2>
-        <p>If you'd like to get in touch, feel free to contact me via email or LinkedIn:</p>
-        <p>Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/johndoe" target="_blank">linkedin.com/in/johndoe</a></p>
+        <p>Feel free to contact me via email or LinkedIn:</p>
+        <p>Email: <a href="mailto:ashleydvon@yahoo.com">ashleydvon@yahoo.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/ashley-von-0600a9239/" target="_blank">linkedin.com/in/ashley-von-0600a9239/</a></p>
     </section>
 
-    <footer class="footer">
-      
+    <!-- Footer -->
+    <footer style="margin-top: 40px;"> <!-- Increased spacing above the footer -->
+        <p>&copy; 2024 ADV. All rights reserved.</p>
+    </footer>
+
+</body>
